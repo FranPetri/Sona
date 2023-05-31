@@ -20,7 +20,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 12:30:00 AM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 336766,
@@ -60,7 +61,7 @@
         },
         "NroSolicitud": "4901-18",
         "Fecha": null,
-        "FechaRealizacion": "5/29/2023 12:00:00 AM",
+        "FechaRealizacion": "5/29/2023 4:00:00 AM",
         "Categoria": "Implementación",
         "Observaciones": null,
         "idRuta": 73557,
@@ -83,7 +84,7 @@
         },
         "NroSolicitud": "4901-38",
         "Fecha": null,
-        "FechaRealizacion": "5/29/2023 12:00:00 AM",
+        "FechaRealizacion": "5/29/2023 1:00:00 AM",
         "Categoria": "Implementación",
         "Observaciones": null,
         "idRuta": 73563,
@@ -106,7 +107,7 @@
         },
         "NroSolicitud": "4805-249",
         "Fecha": null,
-        "FechaRealizacion": "5/29/2023 12:00:00 AM",
+        "FechaRealizacion": "5/29/2023 16:00:00 PM",
         "Categoria": "Entrega",
         "Observaciones": null,
         "idRuta": 73569,
@@ -129,7 +130,7 @@
         },
         "NroSolicitud": "4806-172",
         "Fecha": null,
-        "FechaRealizacion": "5/29/2023 12:00:00 AM",
+        "FechaRealizacion": "5/29/2023 16:00:00 PM",
         "Categoria": "Entrega",
         "Observaciones": null,
         "idRuta": 73576,
@@ -296,7 +297,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 8:45:00 AM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 337551,
@@ -434,7 +436,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 9:30:00 AM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 341353,
@@ -526,7 +529,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 10:15:00 AM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 341440,
@@ -618,7 +622,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 11:00:00 AM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 341569,
@@ -710,7 +715,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 11:45:00 AM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 341446,
@@ -779,7 +785,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 12:30:00 PM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 341674,
@@ -917,7 +924,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 1:15:00 PM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 341571,
@@ -1009,7 +1017,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 2:00:00 PM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 343342,
@@ -1055,7 +1064,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 2:45:00 PM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 343650,
@@ -1124,7 +1134,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 3:30:00 PM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 341754,
@@ -1147,7 +1158,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 4:15:00 PM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 341765,
@@ -1170,7 +1182,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 5:00:00 PM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 341755,
@@ -1193,7 +1206,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 5:45:00 PM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 341756,
@@ -1216,7 +1230,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 6:30:00 PM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 341760,
@@ -1239,7 +1254,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 7:15:00 PM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 341746,
@@ -1262,7 +1278,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 8:00:00 PM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 341752,
@@ -1285,7 +1302,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 8:45:00 PM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 341770,
@@ -1308,7 +1326,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 9:30:00 PM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 341729,
@@ -1331,7 +1350,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 10:15:00 PM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 341751,
@@ -1354,7 +1374,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 11:00:00 PM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 341728,
@@ -1377,7 +1398,8 @@
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 11:45:00 PM",
-        "Responsable": "Intralog"
+        "Responsable": "Intralog",
+        "Estado": "Finalizado"
     },
     {
         "pedid": 342887,
