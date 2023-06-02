@@ -44,7 +44,8 @@
         "idRuta": 73569,
         "RutaNombre": "Ruta sur Chasis Cavana",
         "Hora": "1/1/1900 6:15:00 AM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "Rechazado"
     },
     {
         "pedid": 341329,
@@ -90,7 +91,8 @@
         "idRuta": 73563,
         "RutaNombre": "Ruta Sprinter Cavana + Adrian S",
         "Hora": "1/1/1900 7:00:00 AM",
-        "Responsable": "Adrian Segovia"
+        "Responsable": "Adrian Segovia",
+        "Estado": "Pendientes"
     },
     {
         "pedid": 339788,
