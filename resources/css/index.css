@@ -16,7 +16,7 @@
 #tabla{
     width: 99vw;
     font-family: 'Geologica', sans-serif;
-}
+} 
 #td_pedidos_total{
     width: 99vw;
     height: 60px;
@@ -26,10 +26,33 @@
     font-size: 20px;
     border-radius: 10px;
 }
-.fila{
+#filas{
+    display: flex;
+}
+.h100p{
+    height: 100%;
+}
+#pedidos ul{
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
+    width: 95%;
 }
+#horarios{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+.hora{
+    width: 80px;
+}
+.pedido{
+    margin: 2px;
+    border-style: solid;
+    border-color: black;
+    height: 30px;
+}
+/*
 #horario{
     display: flex;
     align-items: center;
@@ -54,4 +77,4 @@
     border-color: whitesmoke;
     border-radius: 5px;
     margin: 1px;
-}
+} */
