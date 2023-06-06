@@ -1,5 +1,4 @@
 import { pedidos } from "./api.js"; //Importamos el json extraido de la API
-
 let tabla = document.getElementById("tabla"); // Tomamos la tabla
 let tabla_pedidos = document.getElementById("pedidos")
 let contador_pedidos = 0; // Generamos el contador
@@ -13,18 +12,18 @@ function addTimePedido(solicitud,hora,estado) {
         if (hora[2] == "AM" && exploded_hora[0]==12) { // Si la hora es AM y la hora es igual a 12, insertamos la columna 12AM
             let fila_pedido = document.getElementById("pedidos12AM");
             if (fila_pedido != null) {
-                fila_pedido.innerHTML += '<span class="pedido '+estado_pedido+'">'+solicitud+'</span>';                 
+                fila_pedido.innerHTML += '<span id="'+solicitud+'" class="pedido '+estado_pedido+'"><h5>'+solicitud+'</h5> <a id="btn'+solicitud+'" class="btn_pedido" href="#"><span class="material-symbols-outlined">info</span></a> <a class="btn_pedido" href="#"><span class="material-symbols-outlined">local_shipping</span></a> </span>';                 
             }
             contador_pedidos++; // Contador de pedidos
             return true;
         }else if (exploded_hora[0] == i) { //Si encuentra la hora correspondiente
             let fila_pedidosAM = document.getElementById("pedidos"+i+"AM");
             if (fila_pedidosAM != null) {
-                fila_pedidosAM.innerHTML += '<span class="pedido '+estado_pedido+'">'+solicitud+'</span>';
+                fila_pedidosAM.innerHTML += '<span id="'+solicitud+'" class="pedido '+estado_pedido+'"><h5>'+solicitud+'</h5> <a id="btn'+solicitud+'" class="btn_pedido" href="#"><span class="material-symbols-outlined">info</span></a></span>';
             }
             let fila_pedidosPM = document.getElementById("pedidos"+i+"PM");
             if (fila_pedidosPM != null) {
-                fila_pedidosPM.innerHTML += '<span class="pedido '+estado_pedido+'">'+solicitud+'</span>';
+                fila_pedidosPM.innerHTML += '<span id="'+solicitud+'" class="pedido '+estado_pedido+'"><h5>'+solicitud+'</h5> <a id="btn'+solicitud+'" class="btn_pedido" href="#"><span class="material-symbols-outlined">info</span></a></span>';
             }
             contador_pedidos++; // Contador de pedidos
             return true;
