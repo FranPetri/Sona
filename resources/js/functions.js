@@ -13,18 +13,18 @@ function addTimePedido(solicitud,hora,estado) {
         if (hora[2] == "AM" && exploded_hora[0]==12) { // Si la hora es AM y la hora es igual a 12, insertamos la columna 12AM
             let fila_pedido = document.getElementById("pedidos12AM");
             if (fila_pedido != null) {
-                fila_pedido.innerHTML += '<li class="pedido '+estado_pedido+'">'+solicitud+'</li>';                 
+                fila_pedido.innerHTML += '<span class="pedido '+estado_pedido+'">'+solicitud+'</span>';                 
             }
             contador_pedidos++; // Contador de pedidos
             return true;
         }else if (exploded_hora[0] == i) { //Si encuentra la hora correspondiente
             let fila_pedidosAM = document.getElementById("pedidos"+i+"AM");
             if (fila_pedidosAM != null) {
-                fila_pedidosAM.innerHTML += '<li class="pedido '+estado_pedido+'">'+solicitud+'</li>';
+                fila_pedidosAM.innerHTML += '<span class="pedido '+estado_pedido+'">'+solicitud+'</span>';
             }
             let fila_pedidosPM = document.getElementById("pedidos"+i+"PM");
             if (fila_pedidosPM != null) {
-                fila_pedidosPM.innerHTML += '<li class="pedido '+estado_pedido+'">'+solicitud+'</li>';
+                fila_pedidosPM.innerHTML += '<span class="pedido '+estado_pedido+'">'+solicitud+'</span>';
             }
             contador_pedidos++; // Contador de pedidos
             return true;
@@ -32,34 +32,24 @@ function addTimePedido(solicitud,hora,estado) {
     }
 }
 
+
 function generateFila(hora) {
-    let horarios = document.getElementById("horarios")
-    let table_pedidos = document.getElementById("pedidos")
-    for (let i = 0; i <= hora; i++) { // Si no se encuentra la fila
-        if (i == 0) { // Si es cero insertamos la fila 12AM
-            let horario_12AM = document.getElementById("horario12AM")
-            if (horario_12AM == null) {
-                horarios.innerHTML += '<li id="horario12AM" class="hora relacionP_hora12AM">12 AM</li>';                
-                table_pedidos.innerHTML += '<ul id="pedidos12AM" class="relacionP_hora12AM"></ul>';  
-                let relacion_hp = document.getElementsByClassName("relacionP_hora12AM")
-                // relacion_hp.item(0).classList.add("h100p")            
+    for (let i = 0; i <= hora; i++) {
+        if (i == 0) {
+            let hora12am = document.getElementById("12AM")
+            if (hora12am == null) {
+                tabla.innerHTML += '<span id="12AM" class="contain"><h4>12 AM</h4><div id="pedidos12AM" class="pedidos"></div></span>';
             }
         }else{
-            if (i >= 12) { // Si es menor 12 insertamos las filas de horas PM
-                let horario_PM = document.getElementById("horario"+i+"PM")
-                if (horario_PM == null) {                    
-                    horarios.innerHTML += '<li id="horario'+i+'PM" class="hora relacionP_horaPM">'+i+' PM</li>';                   
-                    table_pedidos.innerHTML += '<ul id="pedidos'+i+'PM" class="relacionP_horaPM"></ul>';
-                    let relacion_hp = document.getElementsByClassName("relacionP_hora"+i+"PM")
-                    // relacion_hp.item(0).classList.add("h100p")             
+            if (i < 12) {
+                let fila = document.getElementById(i+"AM")
+                if (fila == null) {
+                    tabla.innerHTML += '<span id="'+i+'AM" class="contain"><h4>'+i+' AM </h4><div id="pedidos'+i+'AM" class="pedidos"></div></span>';
                 }
-            }else{ // Si no insertamos las filas de horas AM
-                let horario_AM = document.getElementById("horario"+i+"AM")
-                if (horario_AM == null) {
-                    horarios.innerHTML += '<li id="horario'+i+'AM" class="hora relacionP_horaAM">'+i+' AM</li>';                     
-                    table_pedidos.innerHTML += '<ul id="pedidos'+i+'AM" class="relacionP_horaAM"></ul>';                     
-                    let relacion_hp = document.getElementsByClassName("relacionP_hora"+i+"AM")
-                    // relacion_hp.item(0).classList.add("h100p")
+            }else{
+                let fila = document.getElementById(i+"PM");
+                if (fila == null) {
+                    tabla.innerHTML += '<span id="'+i+'PM" class="contain"><h4>'+i+' PM </h4><div id="pedidos'+i+'PM" class="pedidos"></div></span>';
                 }
             }
         }

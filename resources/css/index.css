@@ -14,11 +14,13 @@
     background-color: red;
 }
 #tabla{
-    width: 99vw;
+    width: 100%;
     font-family: 'Geologica', sans-serif;
+    display: flex;
+    flex-direction: column;
 } 
 #td_pedidos_total{
-    width: 99vw;
+    width: 100%;
     height: 60px;
     display: flex;
     align-items: center;
@@ -26,55 +28,28 @@
     font-size: 20px;
     border-radius: 10px;
 }
-#filas{
+.contain{
     display: flex;
 }
-.h100p{
-    height: 100%;
-}
-#pedidos ul{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    width: 95%;
-}
-#horarios{
-    display: flex;
-    list-style: none;
-    flex-direction: column;
-}
-.hora{
-    width: 80px;
-}
-.pedido{
-    margin: 2px;
-    border-style: solid;
-    border-color: black;
-    height: 30px;
-}
-/*
-#horario{
+.contain h4{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    width: 100px;
-    height: 30px;
-    font-size: 15px;
-    background-color: whitesmoke;
+    width: 10%;
     border-style: solid;
     border-color: grey;
-    border-radius: 5px;
-    margin: 1px;
 }
-#pedido{
+.pedidos{
+    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 15px;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: grey;
+}
+.pedido{
     width: 100px;
-    height: 30px;
-    border-color: whitesmoke;
-    border-radius: 5px;
-    margin: 1px;
-} */
+    margin: 2px;
+    border-style: solid;
+    border-color: grey;
+    text-align: center;
+}
