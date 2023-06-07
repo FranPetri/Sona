@@ -16,12 +16,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 12:30:00 AM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "Rechazado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 336766,
@@ -40,12 +41,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73569,
         "RutaNombre": "Ruta sur Chasis Cavana",
         "Hora": "1/1/1900 6:15:00 AM",
         "Responsable": "instalador(prueba)",
-        "Estado": "Rechazado"
+        "Estado": "Rechazado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341329,
@@ -64,11 +66,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 4:00:00 AM",
         "Categoria": "Implementación",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73557,
         "RutaNombre": "Ruta Cristian S",
         "Hora": "1/1/1900 6:30:00 AM",
-        "Responsable": "Christian Sola"
+        "Responsable": "Christian Sola",
+        "Estado": "Pendientes",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341349,
@@ -87,12 +91,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 1:00:00 AM",
         "Categoria": "Implementación",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73563,
         "RutaNombre": "Ruta Sprinter Cavana + Adrian S",
         "Hora": "1/1/1900 7:00:00 AM",
         "Responsable": "Adrian Segovia",
-        "Estado": "Pendientes"
+        "Estado": "Pendientes",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 339788,
@@ -111,11 +116,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 16:00:00 PM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73569,
         "RutaNombre": "Ruta sur Chasis Cavana",
         "Hora": "1/1/1900 7:15:00 AM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "Pendientes",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 337550,
@@ -134,11 +141,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 16:00:00 PM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73576,
         "RutaNombre": "Ruta chasis oeste Cavanas",
         "Hora": "1/1/1900 7:15:00 AM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "Rechazado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341707,
@@ -157,11 +166,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Implementación",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73557,
         "RutaNombre": "Ruta Cristian S",
         "Hora": "1/1/1900 7:30:00 AM",
-        "Responsable": "Christian Sola"
+        "Responsable": "Christian Sola",
+        "Estado": "Rechazado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341830,
@@ -180,11 +191,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72533,
         "RutaNombre": "Ruta Pisos Solei, Semi NG",
         "Hora": "1/1/1900 8:00:00 AM",
-        "Responsable": "Entrega Directa"
+        "Responsable": "Entrega Directa",
+        "Estado": "Rechazado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341414,
@@ -203,11 +216,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Implementación",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73563,
         "RutaNombre": "Ruta Sprinter Cavana + Adrian S",
         "Hora": "1/1/1900 8:00:00 AM",
-        "Responsable": "Adrian Segovia"
+        "Responsable": "Adrian Segovia",
+        "Estado": "Rechazado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 342941,
@@ -226,11 +241,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73576,
         "RutaNombre": "Ruta chasis oeste Cavanas",
         "Hora": "1/1/1900 8:00:00 AM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "Rechazado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 339772,
@@ -249,11 +266,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73569,
         "RutaNombre": "Ruta sur Chasis Cavana",
         "Hora": "1/1/1900 8:15:00 AM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "Rechazado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 336789,
@@ -272,11 +291,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73557,
         "RutaNombre": "Ruta Cristian S",
         "Hora": "1/1/1900 8:30:00 AM",
-        "Responsable": "Christian Sola"
+        "Responsable": "Christian Sola",
+        "Estado": "Finalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341747,
@@ -295,12 +316,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 8:45:00 AM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "Finalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 337551,
@@ -319,11 +341,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73576,
         "RutaNombre": "Ruta chasis oeste Cavanas",
         "Hora": "1/1/1900 8:45:00 AM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "Finalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341352,
@@ -342,11 +366,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Implementación",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73563,
         "RutaNombre": "Ruta Sprinter Cavana + Adrian S",
         "Hora": "1/1/1900 9:00:00 AM",
-        "Responsable": "Adrian Segovia"
+        "Responsable": "Adrian Segovia",
+        "Estado": "Finalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 339774,
@@ -365,11 +391,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73569,
         "RutaNombre": "Ruta sur Chasis Cavana",
         "Hora": "1/1/1900 9:15:00 AM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "Finalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 340942,
@@ -388,11 +416,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73557,
         "RutaNombre": "Ruta Cristian S",
         "Hora": "1/1/1900 9:30:00 AM",
-        "Responsable": "Christian Sola"
+        "Responsable": "Christian Sola",
+        "Estado": "Finalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 342940,
@@ -411,11 +441,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73576,
         "RutaNombre": "Ruta chasis oeste Cavanas",
         "Hora": "1/1/1900 9:30:00 AM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "Rechazado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341769,
@@ -434,12 +466,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 9:30:00 AM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "Pendientes",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341353,
@@ -458,11 +491,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Implementación",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73563,
         "RutaNombre": "Ruta Sprinter Cavana + Adrian S",
         "Hora": "1/1/1900 10:00:00 AM",
-        "Responsable": "Adrian Segovia"
+        "Responsable": "Adrian Segovia",
+        "Estado": "Pendientes",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 342991,
@@ -481,11 +516,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73569,
         "RutaNombre": "Ruta sur Chasis Cavana",
         "Hora": "1/1/1900 10:15:00 AM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "Rechazado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 336775,
@@ -504,11 +541,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73576,
         "RutaNombre": "Ruta chasis oeste Cavanas",
         "Hora": "1/1/1900 10:15:00 AM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "Rechazado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341731,
@@ -527,12 +566,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 10:15:00 AM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "Rechazado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341440,
@@ -551,11 +591,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Implementación",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73557,
         "RutaNombre": "Ruta Cristian S",
         "Hora": "1/1/1900 10:30:00 AM",
-        "Responsable": "Christian Sola"
+        "Responsable": "Christian Sola",
+        "Estado": "Rechazado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341351,
@@ -574,11 +616,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Implementación",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73563,
         "RutaNombre": "Ruta Sprinter Cavana + Adrian S",
         "Hora": "1/1/1900 11:00:00 AM",
-        "Responsable": "Adrian Segovia"
+        "Responsable": "Adrian Segovia",
+        "Estado": "Finzalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 336777,
@@ -597,11 +641,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73576,
         "RutaNombre": "Ruta chasis oeste Cavanas",
         "Hora": "1/1/1900 11:00:00 AM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "Finzalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341762,
@@ -620,12 +666,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 11:00:00 AM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "Finzalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341569,
@@ -644,11 +691,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73569,
         "RutaNombre": "Ruta sur Chasis Cavana",
         "Hora": "1/1/1900 11:15:00 AM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "Pendientes",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341467,
@@ -667,11 +716,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Implementación",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73557,
         "RutaNombre": "Ruta Cristian S",
         "Hora": "1/1/1900 11:30:00 AM",
-        "Responsable": "Christian Sola"
+        "Responsable": "Christian Sola",
+        "Estado": "Pendientes",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 337553,
@@ -690,11 +741,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73576,
         "RutaNombre": "Ruta chasis oeste Cavanas",
         "Hora": "1/1/1900 11:45:00 AM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "Pendientes",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341753,
@@ -713,12 +766,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 11:45:00 AM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "A realizar",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341446,
@@ -737,11 +791,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Implementación",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73563,
         "RutaNombre": "Ruta Sprinter Cavana + Adrian S",
         "Hora": "1/1/1900 12:00:00 PM",
-        "Responsable": "Adrian Segovia"
+        "Responsable": "Adrian Segovia",
+        "Estado": "A realizar",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 339784,
@@ -760,11 +816,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73569,
         "RutaNombre": "Ruta sur Chasis Cavana",
         "Hora": "1/1/1900 12:15:00 PM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "A realizar",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341757,
@@ -783,12 +841,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 12:30:00 PM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "A realizar",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341674,
@@ -807,11 +866,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73576,
         "RutaNombre": "Ruta chasis oeste Cavanas",
         "Hora": "1/1/1900 12:30:00 PM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "A realizar",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341445,
@@ -830,11 +891,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Implementación",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73557,
         "RutaNombre": "Ruta Cristian S",
         "Hora": "1/1/1900 12:30:00 PM",
-        "Responsable": "Christian Sola"
+        "Responsable": "Christian Sola",
+        "Estado": "A realizar",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341444,
@@ -853,11 +916,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Implementación",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73563,
         "RutaNombre": "Ruta Sprinter Cavana + Adrian S",
         "Hora": "1/1/1900 1:00:00 PM",
-        "Responsable": "Adrian Segovia"
+        "Responsable": "Adrian Segovia",
+        "Estado": "A realizar",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 343051,
@@ -876,11 +941,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73569,
         "RutaNombre": "Ruta sur Chasis Cavana",
         "Hora": "1/1/1900 1:15:00 PM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "A realizar",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 340943,
@@ -899,11 +966,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73576,
         "RutaNombre": "Ruta chasis oeste Cavanas",
         "Hora": "1/1/1900 1:15:00 PM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "A realizar",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341759,
@@ -922,12 +991,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 1:15:00 PM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "Pendientes",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341571,
@@ -946,11 +1016,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73557,
         "RutaNombre": "Ruta Cristian S",
         "Hora": "1/1/1900 1:30:00 PM",
-        "Responsable": "Christian Sola"
+        "Responsable": "Christian Sola",
+        "Estado": "Pendientes",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341334,
@@ -969,11 +1041,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Implementación",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73563,
         "RutaNombre": "Ruta Sprinter Cavana + Adrian S",
         "Hora": "1/1/1900 2:00:00 PM",
-        "Responsable": "Adrian Segovia"
+        "Responsable": "Adrian Segovia",
+        "Estado": "Pendientes",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 340945,
@@ -992,11 +1066,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73576,
         "RutaNombre": "Ruta chasis oeste Cavanas",
         "Hora": "1/1/1900 2:00:00 PM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "Finzalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341730,
@@ -1015,12 +1091,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 2:00:00 PM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "Finzalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 343342,
@@ -1039,11 +1116,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Servicio - Retiro en PDV",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73569,
         "RutaNombre": "Ruta sur Chasis Cavana",
         "Hora": "1/1/1900 2:15:00 PM",
-        "Responsable": "instalador(prueba)"
+        "Responsable": "instalador(prueba)",
+        "Estado": "Finzalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341764,
@@ -1062,12 +1141,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 2:45:00 PM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "Rechazado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 343650,
@@ -1086,11 +1166,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73563,
         "RutaNombre": "Ruta Sprinter Cavana + Adrian S",
         "Hora": "1/1/1900 3:00:00 PM",
-        "Responsable": "Adrian Segovia"
+        "Responsable": "Adrian Segovia",
+        "Estado": "Finalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 343224,
@@ -1109,11 +1191,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73563,
         "RutaNombre": "Ruta Sprinter Cavana + Adrian S",
         "Hora": "1/1/1900 3:00:00 PM",
-        "Responsable": "Adrian Segovia"
+        "Responsable": "Adrian Segovia",
+        "Estado": "Finalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341727,
@@ -1132,12 +1216,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 3:30:00 PM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "Finalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341754,
@@ -1156,12 +1241,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 4:15:00 PM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "Finalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341765,
@@ -1180,12 +1266,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 5:00:00 PM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "Finalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341755,
@@ -1204,12 +1291,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 5:45:00 PM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "Finalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341756,
@@ -1228,12 +1316,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 6:30:00 PM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "Finalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341760,
@@ -1252,12 +1341,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 7:15:00 PM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "A realizar",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341746,
@@ -1276,12 +1366,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 8:00:00 PM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "A realizar",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341752,
@@ -1300,12 +1391,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 8:45:00 PM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "A realizar",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341770,
@@ -1324,12 +1416,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 9:30:00 PM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "A realizar",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341729,
@@ -1348,12 +1441,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 10:15:00 PM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "A realizar",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341751,
@@ -1372,12 +1466,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 11:00:00 PM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "A realizar",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 341728,
@@ -1396,12 +1491,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 72529,
         "RutaNombre": "Ruta Intralog retira 24-05",
         "Hora": "1/1/1900 11:45:00 PM",
         "Responsable": "Intralog",
-        "Estado": "Finalizado"
+        "Estado": "Finalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 342887,
@@ -1420,11 +1516,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73577,
         "RutaNombre": "Ruta Pharmet 2",
         "Hora": "5/22/2023 12:00:00 AM",
-        "Responsable": "Sin Responsable"
+        "Responsable": "Sin Responsable",
+        "Estado": "Finalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 343340,
@@ -1443,11 +1541,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Retiro en Deposito",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73586,
         "RutaNombre": "Retiro 29/05 8.40 Complement Florencia Migueiz",
         "Hora": "5/29/2023 12:00:00 AM",
-        "Responsable": "Sin Responsable"
+        "Responsable": "Sin Responsable",
+        "Estado": "Finalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 343401,
@@ -1466,11 +1566,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73603,
         "RutaNombre": "Nazareno",
         "Hora": "5/29/2023 12:00:00 AM",
-        "Responsable": "Sin Responsable"
+        "Responsable": "Sin Responsable",
+        "Estado": "Finalizado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 343404,
@@ -1489,11 +1591,13 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Entrega",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73603,
         "RutaNombre": "Nazareno",
         "Hora": "5/29/2023 12:00:00 AM",
-        "Responsable": "Sin Responsable"
+        "Responsable": "Sin Responsable",
+        "Estado": "Rechazado",
+        "Motivo": "Motivo Ejemplo"
     },
     {
         "pedid": 343347,
@@ -1512,10 +1616,12 @@
         "Fecha": null,
         "FechaRealizacion": "5/29/2023 12:00:00 AM",
         "Categoria": "Retiro en Deposito",
-        "Observaciones": null,
+        "Observaciones": "Observacion Ejemplo",
         "idRuta": 73596,
         "RutaNombre": "Turno lunes 29/05 10.10 hs",
         "Hora": "5/29/2023 12:00:00 AM",
-        "Responsable": "Sin Responsable"
+        "Responsable": "Sin Responsable",
+        "Estado": "Rechazado",
+        "Motivo": "Motivo Ejemplo"
     }
 ]
