@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
 }
 :root{
     --color-blue-hard: rgb(39, 55, 77);
@@ -19,12 +20,20 @@
 .back_red{
     background-color: red;
 }
+.back_orange{
+    background-color: orange;
+}
+.back_grey{
+    background-color: grey;
+}
+.tablas{
+    display: flex;
+    flex-wrap: wrap;
+}
 #tabla{
-    width: 100%;
-    font-family: 'Alata', sans-serif;
+    width: 60%;
     display: flex;
     flex-direction: column;
-    padding: 30px;
 } 
 #td_pedidos_total{
     width: 100%;
@@ -36,7 +45,6 @@
     align-items: center;
     justify-content: center;
     font-size: 35px;
-    border-radius: 10px 10px 0 0;
 }
 .contain{
     display: flex;
@@ -110,4 +118,32 @@
   'GRAD' 200,
   'opsz' 20;
   color: black;
+}
+
+#tabla_desvios{
+    background-color: whitesmoke;
+    width: 100%;
+}
+.titulo_desvio{
+}
+.pedido_desvio{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.pedido_desvio > h2{
+    font-size: 100%;
+    width: 20%;
+}
+
+.titulo_prolema{
+    width: 500px;
+}
+.pedido_problema{
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+.pedido_problema > h2{
+    font-size: 20px;
 }

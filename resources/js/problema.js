@@ -1,11 +1,11 @@
 import { pedidos } from "./api.js";
 
-const tabla = document.getElementById("tabla")
+const tabla = document.getElementById("tabla_problema")
 
 function generateTable(pedido) {
     let pedido_table = document.getElementById("pedido"+pedido[4]);
     if (pedido_table == null) {   
-        tabla.innerHTML += '<span id="'+pedido[4]+'" class="pedido"><h2 id="'+pedido[0][0]+'">('+pedido[0][0]+' '+pedido[0][1]+')</h2> '+pedido[4]+': '+pedido[2]+' - '+pedido[3]+'</span><p>';
+        tabla.innerHTML += '<span class="pedido_problema"><h2>('+pedido[0][0]+' '+pedido[0][1]+')</h2> '+pedido[4]+': '+pedido[2]+' - '+pedido[3]+'</span><p>';
     }
 }
 

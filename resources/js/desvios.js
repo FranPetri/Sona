@@ -1,15 +1,15 @@
 import { pedidos } from "./api.js";
 
-const tabla = document.getElementById("tabla")
+const tabla = document.getElementById("tabla_desvios")
 
 function generateTable(pedido) {
     let pedido_table = document.getElementById("pedido"+pedido[4]);
     if (pedido_table == null) { 
         if (pedido[1] == "Rechazado") {
-            tabla.innerHTML += '<span id="'+pedido[4]+'" class="pedido back_red"><h2 id="'+pedido[0][0]+'">('+pedido[0][0]+' '+pedido[0][1]+')</h2> '+pedido[4]+': '+pedido[2]+' - '+pedido[3]+'</span><p>';            
+            tabla.innerHTML += '<span class="pedido_desvio back_red"><h2 id="'+pedido[0][0]+'">('+pedido[0][0]+' '+pedido[0][1]+')</h2> '+pedido[4]+': '+pedido[2]+' - '+pedido[3]+'</span><p>';            
         }  
         if (pedido[1] == "A realizar") {
-            tabla.innerHTML += '<span id="'+pedido[4]+'" class="pedido back_grey"><h2 id="'+pedido[0][0]+'">('+pedido[0][0]+' '+pedido[0][1]+')</h2> '+pedido[4]+': '+pedido[2]+' - '+pedido[3]+'</span><p>';            
+            tabla.innerHTML += '<span class="pedido_desvio back_grey"><h2 id="'+pedido[0][0]+'">('+pedido[0][0]+' '+pedido[0][1]+')</h2> '+pedido[4]+': '+pedido[2]+' - '+pedido[3]+'</span><p>';            
         }  
     }
 }
