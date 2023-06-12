@@ -30,8 +30,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+/* Tabla general ------------------ */
 #tabla{
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
 } 
@@ -119,23 +120,27 @@
   'opsz' 20;
   color: black;
 }
-
+.tablas2{
+    width: 50%;
+}
+/* Tabla Desvios ------------------------------------ */
 #tabla_desvios{
     background-color: whitesmoke;
-    width: 100%;
 }
 .titulo_desvio{
 }
 .pedido_desvio{
     display: flex;
     align-items: center;
-    width: 100%;
 }
 .pedido_desvio > h2{
     font-size: 100%;
     width: 20%;
 }
 
+/* Tabla Problema ----------------------------------- */
+#tabla_problema{
+}
 .titulo_prolema{
     width: 500px;
 }
