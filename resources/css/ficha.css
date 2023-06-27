@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 1s ease-out;
+}
+.dflex{
+    display: flex;
+}
+.fdc{
+    flex-direction: column;
+}
+.backsmoke{
+    background-color: whitesmoke;
+}
+.white{
+    color: white;
+}
+.w60p{
+    width: 60%;
+}
+.tac{
+    text-align: center;
+}
+.jcc{
+    justify-content: center;
+}
+.aic{
+    align-items: center;
+}
+.pd20{
+    padding: 20px;
+}
+li{
+    list-style: none;
+}
+.fw{
+    flex-wrap: nowrap;
+}
+.spa{
+    justify-content: space-around;
+}
+.contain{
+    margin: 10px;
+    background-color: rgb(49, 71, 197);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contain b{
+    padding: 5px;
+    word-break: break-all;
+}
+.desc{
+    background-color: rgb(135, 150, 238);
+    word-break: break-all;
+    padding: 3px;
+    height: 100%;
+}
+h4{
+    background-color: rgb(57, 76, 185);
+    padding: 5px;
+}
+h3{
+    color: grey;
+}
+.cliente,.proyecto{
+    color: black;
+    
+}
+.mont{
+    font-family: 'Montserrat', sans-serif;
+}
+.black{
+    color: black;
+}
+.m15{
+    margin: 15px;
+}
+.descV{
+    background-color: rgb(135, 150, 238);
+    width: 30%;
+    word-break: break-all;
+    padding: 3px;
+}
+h4 a{
+    color: whitesmoke;
+}
+.fs50p{
+    font-size: 1em;
+}
+
+@media only screen and (max-width: 800px) {
+    .fdcs{
+        flex-direction: column;
+    }
+    .w90ps{
+        width: 95%;
+    }
+
+}

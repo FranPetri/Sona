@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha Ejemplo</title>
+    <link rel="stylesheet" href="../resources/css/ficha.css">
+</head>
+<body>
+    <div class="card backsmoke tac mont">
+        <h2 class="pd20">Ficha del Pedido</h2>
+        <div class="dflex tac jcc pd20 fdcs">
+            El Pedido pertenece al cliente:  <b id="cliente" class="black fs50p"></b> 
+            y forma parte del Proyecto:      <b id="proyecto" class="black fs50p"></b>
+        </div>
+        <h4 class="white">Datos del Punto de venta <a href="#">Ver Detalle PDV</a></h4>
+        <div class="pdv white">
+            <li class="dflex fw jcc fdcs">
+                <div class="contain w90ps">
+                    <b>Nombre</b>
+                    <div id="nombre" class="desc dflex aic jcc"></div>
+                </div>
+                <div class="contain w90ps">
+                    <b>Direccion</b>
+                    <div id="dir" class="desc dflex aic jcc"></div>
+                </div>
+                <div class="contain w90ps">
+                    <b>Cadena</b>
+                    <div id="cadena" class="desc dflex aic jcc"></div>
+                </div>
+                <div class="contain w90ps">
+                    <b>Localidad</b>
+                    <div id="local" class="desc dflex aic jcc"></div>
+                </div>
+                <div class="contain w90ps">
+                    <b>Provincia</b>
+                    <div id="prov" class="desc dflex aic jcc"></div>
+                </div>
+            </li>
+        </div>
+        <h4 class="white">Detalles del Pedido</h4>
+        <div class="pedido white">
+            <li class="dflex fw spa fdcs">
+                <div class="contain w90ps">
+                    <b>Fecha de realización: </b>
+                    <div id="fechar" class="desc dflex aic jcc"></div>
+                </div>
+                <div class="contain w90ps">
+                    <b>Horario Estimado</b>
+                    <div id="horae" class="desc dflex aic jcc"></div>
+                </div>
+                <div class="contain w90ps">
+                    <b>Tipo de Pedido</b>
+                    <div id="tipo" class="desc dflex aic jcc"></div>
+                </div>
+                <div class="contain w90ps">
+                    <b>Estado</b>
+                    <div id="estado" class="desc dflex aic jcc"></div>
+                </div>
+                <div class="contain w90ps">
+                    <b>Distrito</b>
+                    <div id="dist" class="desc dflex aic jcc"></div>
+                </div>
+                <div class="contain w90ps">
+                    <b>Numero de remito</b>
+                    <div id="remito" class="desc dflex aic jcc"></div>
+                </div>
+                <div class="contain w90ps">
+                    <b>Numero de Solicitud</b>
+                    <div id="soli" class="desc dflex aic jcc"></div>
+                </div>
+                <div class="contain w90ps">
+                    <b>Observaciones</b>
+                    <div id="obs" class="desc dflex aic jcc"></div>
+                </div>
+            </li>
+        </div>
+        <h4 class="white">Materiales POP que incluye el Pedido</h4>
+        <div class="pedidos">
+            <!-- <div id="pop"></div>
+            <div id="cant"></div>
+            <div id="descpop"></div>
+            <div id="accion"></div>
+            <div id="detail"></div> -->
+        </div>
+        <h4 class="white">Visitas recibidas relacionadas con el Pedido</h4>
+        <div class="visitas dflex spa white fdcs">
+            <div id="fechaped" class="descV dflex aic jcc m15 w90ps"></div>
+            <div id="estadoped" class="descV dflex aic jcc m15 w90ps"></div>
+            <div id="valid" class="descV dflex aic jcc m15 w90ps"></div>
+            <div id="detail" class="descV dflex aic jcc m15 w90ps"></div>
+            <div id="galeria" class="descV dflex aic jcc m15 w90ps"></div>
+            <div id="subirarch" class="descV dflex aic jcc m15 w90ps"></div>
+        </div>
+    </div>
+</body>
+<script src="../resources/js/ficha.js"></script>
+</html>
